@@ -1,0 +1,10 @@
+1. Created a github repo, template.py, setup.py, logger, exception
+2. Created a virtual env:
+    > conda create -n stocks python=3.8 -y
+    > conda activate stocks
+    > pip install -r requirements.txt
+3. Performed below experiments in notebooks:
+    > EDA.ipynb - Performed detailed EDA, visualization, moving average etc
+    > xgboost.ipynb - Trained, evaluated and predicted using XGBOOST algorithm (Performed not good)
+    > LSTM_GRU.ipynb - Trained, evaluated and predicted using (LSTM+GRU) algorithm (Performed better than xgboost)
+    > GRU.ipynb - Trained, evaluated and predicted using GRU architecture (Performed decent)
